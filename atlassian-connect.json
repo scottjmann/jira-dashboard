@@ -37,7 +37,7 @@
                 "key": "my-configuration-page",
                 "url": "configuration?id={board.id}&type={board.type}",
                 "name": {
-                  "value": "My Configuration Page"
+                  "value": "Scotts App Dropdown Trial"
                 },
                 "location": "jira.agile.board.configuration",
                 "weight": 1
