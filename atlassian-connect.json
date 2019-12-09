@@ -1,11 +1,11 @@
 {
     "name": "Hello World",
     "description": "Atlassian Connect app",
-    "key": "com.example.myapp",
+    "key": "Scotts-first-jira-app",
     "baseUrl": "https://fa8c5cc0.ngrok.io",
     "vendor": {
-        "name": "Example, Inc.",
-        "url": "http://example.com"
+        "name": "Scotts Jira App",
+        "url": "https://www.linkedin.com/in/scott-mann-91246087/"
     },
     "authentication": {
         "type": "none"
@@ -15,10 +15,10 @@
         "generalPages": [
             {
                 "url": "/helloworld.html",
-                "key": "hello-world",
+                "key": "Welcome from Scott",
                 "location": "system.top.navigation.bar",
                 "name": {
-                    "value": "Greeting"
+                    "value": "Scott"
                 }
             }
         ],
@@ -34,15 +34,13 @@
           ],
           "webPanels": [
             {
-              "key": "my-web-panel",
-              "url": "web-panel?id={board.id}&mode={board.screen}",
-              "name": {
-                "value": "My Web Panel"
-              },
-              "location": "board-links",
-              "layout": {
-                "width": "100px",
-                "height": "100px"
+                "key": "my-configuration-page",
+                "url": "configuration?id={board.id}&type={board.type}",
+                "name": {
+                  "value": "My Configuration Page"
+                },
+                "location": "jira.agile.board.configuration",
+                "weight": 1
               }
             }
           ]
