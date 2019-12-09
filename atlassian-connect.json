@@ -2,7 +2,7 @@
     "name": "Hello World",
     "description": "Atlassian Connect app",
     "key": "com.example.myapp",
-    "baseUrl": "https://<placeholder-url>",
+    "baseUrl": "https://fa8c5cc0.ngrok.io",
     "vendor": {
         "name": "Example, Inc.",
         "url": "http://example.com"
@@ -21,6 +21,30 @@
                     "value": "Greeting"
                 }
             }
-        ]
+        ],
+        "webSections": [
+            {
+              "key": "board-links",
+              "location": "jira.agile.board.tools",
+              "weight": 10,
+              "name": {
+                "value": "My Addon Dropdown"
+              }
+            }
+          ],
+          "webPanels": [
+            {
+              "key": "my-web-panel",
+              "url": "web-panel?id={board.id}&mode={board.screen}",
+              "name": {
+                "value": "My Web Panel"
+              },
+              "location": "board-links",
+              "layout": {
+                "width": "100px",
+                "height": "100px"
+              }
+            }
+          ]
     }
 }
