@@ -1,6 +1,6 @@
 {
-    "name": "Hello World",
-    "description": "Atlassian Connect app",
+    "name": "Dash-Scott",
+    "description": "Scotts dasahboard for Jira",
     "key": "Scotts-first-jira-app",
     "baseUrl": "https://fa8c5cc0.ngrok.io",
     "vendor": {
@@ -15,7 +15,7 @@
         "generalPages": [
             {
                 "url": "/helloworld.html",
-                "key": "Welcome from Scott",
+                "key": "welcome-from-scott",
                 "location": "system.top.navigation.bar",
                 "name": {
                     "value": "Scott"
@@ -28,7 +28,7 @@
               "location": "jira.agile.board.tools",
               "weight": 10,
               "name": {
-                "value": "My Addon Dropdown"
+                "value": "Scotts App Dropdown Trial"
               }
             }
           ],
@@ -42,7 +42,6 @@
                 "location": "jira.agile.board.configuration",
                 "weight": 1
               }
-            }
           ]
     }
 }
