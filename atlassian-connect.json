@@ -27,17 +27,33 @@
               "key": "board-links",
               "location": "jira.agile.board.tools",
               "weight": 10,
+              "tooltip":{
+                  "value": "Tooltip should be visible"
+              },
               "name": {
                 "value": "Scotts App Dropdown Trial"
               }
+            },
+            {
+                "key": "agile-board-item",
+            "location": "jira.agile.board.tools",
+            "url": "https://scottjmann.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=DD&view=planning&selectedIssue=DD-2&epics=visible&selectedEpic=DD-5",
+            "name": {
+                "value": "Change view"
+            },
+            "icon": {
+                "width": 16,
+                "height": 16,
+                "url": "http://www.myiconfinder.com/uploads/iconsets/256-256-5fbc60a4335d01cd9c35dcf8fae02410.png"
             }
+        }
           ],
           "webPanels": [
             {
                 "key": "my-configuration-page",
-                "url": "configuration?id={board.id}&type={board.type}",
+                "url": "/helloworld.html",
                 "name": {
-                  "value": "Scotts App Dropdown Trial"
+                  "value": "Scotts doing really well"
                 },
                 "location": "jira.agile.board.configuration",
                 "weight": 1
